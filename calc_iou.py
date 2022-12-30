@@ -1,7 +1,7 @@
 
 def my_iou(bb1, bb2):
     # Generally, this is the representation of the coordinates of the bbx.
-    # bbx[0], bbx[1], bbx[2], bbx[3] = x_min, y_min, x_min, y_min
+    # bbx[0], bbx[1], bbx[2], bbx[3] = x_min, y_min, x_max, y_max
 
     # checking for no wrong representation
     assert bb1[0] < bb1[2]
